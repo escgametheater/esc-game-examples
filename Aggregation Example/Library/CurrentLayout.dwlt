@@ -1,0 +1,1095 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PixelRect:
+    serializedVersion: 2
+    x: 69
+    y: 97
+    width: 1920
+    height: 1100
+  m_ShowMode: 4
+  m_Title: 
+  m_RootView: {fileID: 8}
+  m_MinSize: {x: 950, y: 544}
+  m_MaxSize: {x: 10000, y: 10000}
+--- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 566
+    height: 160
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+  vertical: 0
+  controlID: 260
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1002
+    height: 449
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+  vertical: 0
+  controlID: 30242
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 11}
+  - {fileID: 5}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 30
+    width: 1920
+    height: 1050
+  m_MinSize: {x: 508, y: 494}
+  m_MaxSize: {x: 14004, y: 14044}
+  vertical: 0
+  controlID: 54
+--- !u!114 &5
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 1342
+    y: 0
+    width: 578
+    height: 1050
+  m_MinSize: {x: 102, y: 122}
+  m_MaxSize: {x: 4002, y: 4022}
+  m_ActualView: {fileID: 14}
+  m_Panes:
+  - {fileID: 17}
+  - {fileID: 14}
+  m_Selected: 1
+  m_LastSelected: 0
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 247
+    height: 392
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 18}
+  m_Panes:
+  - {fileID: 18}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &7
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 392
+    width: 1342
+    height: 658
+  m_MinSize: {x: 232, y: 272}
+  m_MaxSize: {x: 10002, y: 10022}
+  m_ActualView: {fileID: 16}
+  m_Panes:
+  - {fileID: 16}
+  - {fileID: 21}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &8
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 9}
+  - {fileID: 4}
+  - {fileID: 10}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1920
+    height: 1100
+  m_MinSize: {x: 950, y: 544}
+  m_MaxSize: {x: 10000, y: 10000}
+--- !u!114 &9
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12011, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1920
+    height: 30
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+  m_LastLoadedLayoutName: 
+--- !u!114 &10
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12042, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 1080
+    width: 1920
+    height: 20
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+--- !u!114 &11
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 12}
+  - {fileID: 7}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1342
+    height: 1050
+  m_MinSize: {x: 406, y: 494}
+  m_MaxSize: {x: 10002, y: 14044}
+  vertical: 1
+  controlID: 55
+--- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 6}
+  - {fileID: 13}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1342
+    height: 392
+  m_MinSize: {x: 406, y: 222}
+  m_MaxSize: {x: 8006, y: 4022}
+  vertical: 0
+  controlID: 35
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 247
+    y: 0
+    width: 1095
+    height: 392
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 20}
+  m_Panes:
+  - {fileID: 19}
+  - {fileID: 20}
+  - {fileID: 15}
+  m_Selected: 1
+  m_LastSelected: 0
+--- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 457145350, guid: 7c82df7c578d74e57935201ddb5ecfc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: ESC Settings - 1.1.47.1
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1411
+    y: 127
+    width: 576
+    height: 1031
+  m_ViewDataDictionary: {fileID: 0}
+  controllerManager:
+    buildProcess:
+      buildMessageScrollPos: {x: 0, y: 0}
+      buildErrorScrollPos: {x: 0, y: 0}
+      status:
+        status: 4
+        message: "audited 16570 packages in 6.173s\nfound 8 vulnerabilities (4 moderate,
+          4 high)\n  run `npm audit fix` to fix them, or `npm audit` for details\nFound:
+          \ [ '@esc_games/esc-controller-build-configurator',\n  '@esc_games/esc-controller-sdk',\n
+          \ '@esc_games/esc-react-redux' ]\nInstalling latest versions of those dependencies\nDone\n>
+          aggregation-example-controllers@1.0.0 build /Users/pete/esc-game-studio/Aggregation
+          Example/controllers\n> npm-run-all -p build-*\n> aggregation-example-controllers@1.0.0
+          build-player /Users/pete/esc-game-studio/Aggregation Example/controllers\n>
+          cross-env CONTROLLER=player npm run _build\n> aggregation-example-controllers@1.0.0
+          build-admin /Users/pete/esc-game-studio/Aggregation Example/controllers\n>
+          cross-env CONTROLLER=admin npm run _build\n> aggregation-example-controllers@1.0.0
+          build-spectator /Users/pete/esc-game-studio/Aggregation Example/controllers\n>
+          cross-env CONTROLLER=spectator npm run _build\n> aggregation-example-controllers@1.0.0
+          build-custom /Users/pete/esc-game-studio/Aggregation Example/controllers\n>
+          cross-env CONTROLLER=custom npm run _build\n> aggregation-example-controllers@1.0.0
+          build-join /Users/pete/esc-game-studio/Aggregation Example/controllers\n>
+          cross-env CONTROLLER=join npm run _build\n> aggregation-example-controllers@1.0.0
+          _build /Users/pete/esc-game-studio/Aggregation Example/controllers\n> webpack
+          --mode=production\n> aggregation-example-controllers@1.0.0 _build /Users/pete/esc-game-studio/Aggregation
+          Example/controllers\n> webpack --mode=production\n> aggregation-example-controllers@1.0.0
+          _build /Users/pete/esc-game-studio/Aggregation Example/controllers\n> webpack
+          --mode=production\n> aggregation-example-controllers@1.0.0 _build /Users/pete/esc-game-studio/Aggregation
+          Example/controllers\n> webpack --mode=production\n> aggregation-example-controllers@1.0.0
+          _build /Users/pete/esc-game-studio/Aggregation Example/controllers\n> webpack
+          --mode=production\nUnable to find a controller at /Users/pete/esc-game-studio/Aggregation
+          Example/controllers/src/main/custom/index.js, skipping.\nUnable to find
+          a controller at /Users/pete/esc-game-studio/Aggregation Example/controllers/src/main/join/index.js,
+          skipping.\nUnable to find a controller at /Users/pete/esc-game-studio/Aggregation
+          Example/controllers/src/main/spectator/index.js, skipping.\nHash: 1cc15099bf5282a33234\nVersion:
+          webpack 4.28.4\nTime: 1637ms\nBuilt at: 08/22/2019 1:19:13 PM\n                                      Asset
+          \      Size                             Chunks                    Chunk
+          Names\n                               ../admin.zip    151 KiB                                     [emitted]
+          \        \n                        1-vendors.bundle.js    322 KiB                          1-vendors
+          \ [emitted]  [big]  1-vendors\n2-esc-controller-sdk-1.2.3-images.bundle.js
+          \  51.4 KiB  2-esc-controller-sdk-1.2.3-images  [emitted]         2-esc-controller-sdk-1.2.3-images\n
+          \      2-esc-controller-sdk-1.2.3.bundle.js   78.7 KiB         2-esc-controller-sdk-1.2.3
+          \ [emitted]         2-esc-controller-sdk-1.2.3\n             2-esc-controller-sdk-1.2.3.css
+          \  7.53 KiB         2-esc-controller-sdk-1.2.3  [emitted]         2-esc-controller-sdk-1.2.3\n
+          \                                 bundle.js   1.42 KiB                            runtime
+          \ [emitted]         runtime\n                                 index.html
+          \ 932 bytes                                     [emitted]         \n                             main.bundle.js
+          \  11.1 KiB                               main  [emitted]         main\n
+          \                                  main.css  676 bytes                               main
+          \ [emitted]         main\nEntrypoint main [big] = bundle.js 2-esc-controller-sdk-1.2.3-images.bundle.js
+          2-esc-controller-sdk-1.2.3.css 2-esc-controller-sdk-1.2.3.bundle.js 1-vendors.bundle.js
+          main.css main.bundle.js\n[./node_modules/history/esm/history.js] ./node_modules/history/esm/history.js
+          + 3 modules 30.9 KiB {1-vendors} [built]\n    |    4 modules\n[./node_modules/react-redux/es/index.js]
+          ./node_modules/react-redux/es/index.js + 17 modules 29.4 KiB {1-vendors}
+          [built]\n    |    18 modules\n[./node_modules/react-router-dom/es/Route.js]
+          ./node_modules/react-router-dom/es/Route.js + 1 modules 5.9 KiB {1-vendors}
+          [built]\n    |    2 modules\n[./node_modules/react-router-dom/es/Router.js]
+          ./node_modules/react-router-dom/es/Router.js + 1 modules 3.86 KiB {1-vendors}
+          [built]\n    |    2 modules\n[./node_modules/react-router-dom/es/Switch.js]
+          ./node_modules/react-router-dom/es/Switch.js + 1 modules 3.35 KiB {1-vendors}
+          [built]\n    |    2 modules\n[./node_modules/webpack/buildin/global.js]
+          (webpack)/buildin/global.js 472 bytes {1-vendors} [built]\n[./node_modules/webpack/buildin/harmony-module.js]
+          (webpack)/buildin/harmony-module.js 573 bytes {1-vendors} [built]\n[./src/lib/phases/EndScreen/EndScreen.css]
+          39 bytes {main} [built]\n[./src/lib/phases/Lobby/Lobby.css] 39 bytes {main}
+          [built]\n[./src/lib/phases/PlayScreen/PlayScreen.css] 39 bytes {main} [built]\n[./src/lib/phases/PlayScreen/images/aggButt.png]
+          6.77 KiB {main} [built]\n[./src/main/admin/AggregationExampleAdminController.css]
+          39 bytes {main} [built]\n[./src/main/admin/index.js] ./src/main/admin/index.js
+          + 14 modules 8.63 KiB {main} [built]\n    | ./src/main/admin/index.js 659
+          bytes [built]\n    | ./src/main/admin/AggregationExampleAdminController.js
+          4.42 KiB [built]\n    | ./src/lib/phases/index.js 319 bytes [built]\n    |
+          ./src/main/GameEvents.js 135 bytes [built]\n    | ./src/main/UIEvents.js
+          162 bytes [built]\n    | ./src/lib/reducers/index.js 89 bytes [built]\n
+          \   | ./src/lib/utils/history.js 95 bytes [built]\n    | ./src/lib/utils/phaseRouter.js
+          233 bytes [built]\n    | ./src/lib/phases/Lobby/index.js 63 bytes [built]\n
+          \   | ./src/lib/phases/PlayScreen/index.js 68 bytes [built]\n    | ./src/lib/phases/EndScreen/index.js
+          67 bytes [built]\n    | ./src/lib/reducers/spreadReducer.js 1.15 KiB [built]\n
+          \   | ./src/lib/phases/Lobby/Lobby.js 359 bytes [built]\n    | ./src/lib/phases/PlayScreen/PlayScreen.js
+          581 bytes [built]\n    | ./src/lib/phases/EndScreen/EndScreen.js 208 bytes
+          [built]\n[./src/theme.css] 39 bytes {main} [built]\n    + 180 hidden modules\nWARNING
+          in asset size limit: The following asset(s) exceed the recommended size
+          limit (244 KiB).\nThis can impact web performance.\nAssets: \n  1-vendors.bundle.js
+          (322 KiB)\nWARNING in entrypoint size limit: The following entrypoint(s)
+          combined asset size exceeds the recommended limit (244 KiB). This can impact
+          web performance.\nEntrypoints:\n  main (473 KiB)\n      bundle.js\n      2-esc-controller-sdk-1.2.3-images.bundle.js\n
+          \     2-esc-controller-sdk-1.2.3.css\n      2-esc-controller-sdk-1.2.3.bundle.js\n
+          \     1-vendors.bundle.js\n      main.css\n      main.bundle.js\nWARNING
+          in webpack performance recommendations: \nYou can limit the size of your
+          bundles by using import() or require.ensure to lazy load some parts of your
+          application.\nFor more info visit https://webpack.js.org/guides/code-splitting/\nChild
+          html-webpack-plugin for \"index.html\":\n     1 asset\n    Entrypoint undefined
+          = index.html\n    [./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html]
+          671 bytes {0} [built]\n    [./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js
+          472 bytes {0} [built]\n    [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js
+          497 bytes {0} [built]\n        + 1 hidden module\nChild mini-css-extract-plugin
+          ../../Aggregation Example/controllers/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-5-1!../../Aggregation
+          Example/controllers/node_modules/postcss-loader/src/index.js??postcss!../../Aggregation
+          Example/controllers/node_modules/@esc_games/esc-controller-sdk/ESCGameController.css:\n
+          \   Entrypoint mini-css-extract-plugin = *\n       2 modules\nChild mini-css-extract-plugin
+          ../../Aggregation Example/controllers/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-5-1!../../Aggregation
+          Example/controllers/node_modules/postcss-loader/src/index.js??postcss!../../Aggregation
+          Example/controllers/node_modules/@esc_games/esc-controller-sdk/debug/debug.css:\n
+          \   Entrypoint mini-css-extract-plugin = *\n       2 modules\nChild mini-css-extract-plugin
+          ../../Aggregation Example/controllers/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-5-1!../../Aggregation
+          Example/controllers/node_modules/postcss-loader/src/index.js??postcss!../../Aggregation
+          Example/controllers/node_modules/@esc_games/esc-controller-sdk/esc-default.css:\n
+          \   Entrypoint mini-css-extract-plugin = *\n       2 modules\nChild mini-css-extract-plugin
+          ../../Aggregation Example/controllers/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-5-1!../../Aggregation
+          Example/controllers/node_modules/postcss-loader/src/index.js??postcss!../../Aggregation
+          Example/controllers/node_modules/@esc_games/esc-controller-sdk/input/screen/Fullscreen.css:\n
+          \   Entrypoint mini-css-extract-plugin = *\n       2 modules\nChild mini-css-extract-plugin
+          ../../Aggregation Example/controllers/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-5-1!../../Aggregation
+          Example/controllers/node_modules/postcss-loader/src/index.js??postcss!../../Aggregation
+          Example/controllers/node_modules/@esc_games/esc-controller-sdk/input/screen/LockOrientation.css:\n
+          \   Entrypoint mini-css-extract-plugin = *\n       2 modules\nChild mini-css-extract-plugin
+          ../../Aggregation Example/controllers/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-5-1!../../Aggregation
+          Example/controllers/node_modules/postcss-loader/src/index.js??postcss!../../Aggregation
+          Example/controllers/node_modules/@esc_games/esc-controller-sdk/input/screen/Screen.css:\n
+          \   Entrypoint mini-css-extract-plugin = *\n       2 modules\nChild mini-css-extract-plugin
+          ../../Aggregation Example/controllers/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-5-1!../../Aggregation
+          Example/controllers/node_modules/postcss-loader/src/index.js??postcss!../../Aggregation
+          Example/controllers/src/lib/phases/EndScreen/EndScreen.css:\n    Entrypoint
+          mini-css-extract-plugin = *\n    [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/lib/phases/EndScreen/EndScreen.css]
+          ./node_modules/css-loader/dist/cjs.js??ref--4-oneOf-5-1!./node_modules/postcss-loader/src??postcss!./src/lib/phases/EndScreen/EndScreen.css
+          202 bytes {mini-css-extract-plugin} [built]\n        + 1 hidden module\nChild
+          mini-css-extract-plugin ../../Aggregation Example/controllers/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-5-1!../../Aggregation
+          Example/controllers/node_modules/postcss-loader/src/index.js??postcss!../../Aggregation
+          Example/controllers/src/lib/phases/Lobby/Lobby.css:\n    Entrypoint mini-css-extract-plugin
+          = *\n    [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/lib/phases/Lobby/Lobby.css]
+          ./node_modules/css-loader/dist/cjs.js??ref--4-oneOf-5-1!./node_modules/postcss-loader/src??postcss!./src/lib/phases/Lobby/Lobby.css
+          259 bytes {mini-css-extract-plugin} [built]\n        + 1 hidden module\nChild
+          mini-css-extract-plugin ../../Aggregation Example/controllers/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-5-1!../../Aggregation
+          Example/controllers/node_modules/postcss-loader/src/index.js??postcss!../../Aggregation
+          Example/controllers/src/lib/phases/PlayScreen/PlayScreen.css:\n    Entrypoint
+          mini-css-extract-plugin = *\n    [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/lib/phases/PlayScreen/PlayScreen.css]
+          ./node_modules/css-loader/dist/cjs.js??ref--4-oneOf-5-1!./node_modules/postcss-loader/src??postcss!./src/lib/phases/PlayScreen/PlayScreen.css
+          536 bytes {mini-css-extract-plugin} [built]\n        + 1 hidden module\nChild
+          mini-css-extract-plugin ../../Aggregation Example/controllers/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-5-1!../../Aggregation
+          Example/controllers/node_modules/postcss-loader/src/index.js??postcss!../../Aggregation
+          Example/controllers/src/main/admin/AggregationExampleAdminController.css:\n
+          \   Entrypoint mini-css-extract-plugin = *\n    [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/main/admin/AggregationExampleAdminController.css]
+          ./node_modules/css-loader/dist/cjs.js??ref--4-oneOf-5-1!./node_modules/postcss-loader/src??postcss!./src/main/admin/AggregationExampleAdminController.css
+          196 bytes {mini-css-extract-plugin} [built]\n        + 1 hidden module\nChild
+          mini-css-extract-plugin ../../Aggregation Example/controllers/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-5-1!../../Aggregation
+          Example/controllers/node_modules/postcss-loader/src/index.js??postcss!../../Aggregation
+          Example/controllers/src/theme.css:\n    Entrypoint mini-css-extract-plugin
+          = *\n    [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/theme.css]
+          ./node_modules/css-loader/dist/cjs.js??ref--4-oneOf-5-1!./node_modules/postcss-loader/src??postcss!./src/theme.css
+          269 bytes {mini-css-extract-plugin} [built]\n        + 1 hidden module\nHash:
+          869588e2949e3aa1a7cd\nVersion: webpack 4.28.4\nTime: 2011ms\nBuilt at: 08/22/2019
+          1:19:14 PM\n                                      Asset       Size                             Chunks
+          \                   Chunk Names\n                              ../player.zip
+          \   152 KiB                                     [emitted]         \n                        1-vendors.bundle.js
+          \   322 KiB                          1-vendors  [emitted]  [big]  1-vendors\n2-esc-controller-sdk-1.2.3-images.bundle.js
+          \  51.4 KiB  2-esc-controller-sdk-1.2.3-images  [emitted]         2-esc-controller-sdk-1.2.3-images\n
+          \      2-esc-controller-sdk-1.2.3.bundle.js   78.7 KiB         2-esc-controller-sdk-1.2.3
+          \ [emitted]         2-esc-controller-sdk-1.2.3\n             2-esc-controller-sdk-1.2.3.css
+          \  7.53 KiB         2-esc-controller-sdk-1.2.3  [emitted]         2-esc-controller-sdk-1.2.3\n
+          \                                 bundle.js   1.42 KiB                            runtime
+          \ [emitted]         runtime\n                                 index.html
+          \ 932 bytes                                     [emitted]         \n                             main.bundle.js
+          \  11.5 KiB                               main  [emitted]         main\n
+          \                                  main.css  676 bytes                               main
+          \ [emitted]         main\nEntrypoint main [big] = bundle.js 2-esc-controller-sdk-1.2.3-images.bundle.js
+          2-esc-controller-sdk-1.2.3.css 2-esc-controller-sdk-1.2.3.bundle.js 1-vendors.bundle.js
+          main.css main.bundle.js\n[./node_modules/history/esm/history.js] ./node_modules/history/esm/history.js
+          + 3 modules 30.9 KiB {1-vendors} [built]\n    |    4 modules\n[./node_modules/react-redux/es/index.js]
+          ./node_modules/react-redux/es/index.js + 17 modules 29.4 KiB {1-vendors}
+          [built]\n    |    18 modules\n[./node_modules/react-router-dom/es/Route.js]
+          ./node_modules/react-router-dom/es/Route.js + 1 modules 5.9 KiB {1-vendors}
+          [built]\n    |    2 modules\n[./node_modules/react-router-dom/es/Router.js]
+          ./node_modules/react-router-dom/es/Router.js + 1 modules 3.86 KiB {1-vendors}
+          [built]\n    |    2 modules\n[./node_modules/react-router-dom/es/Switch.js]
+          ./node_modules/react-router-dom/es/Switch.js + 1 modules 3.35 KiB {1-vendors}
+          [built]\n    |    2 modules\n[./node_modules/webpack/buildin/global.js]
+          (webpack)/buildin/global.js 472 bytes {1-vendors} [built]\n[./node_modules/webpack/buildin/harmony-module.js]
+          (webpack)/buildin/harmony-module.js 573 bytes {1-vendors} [built]\n[./src/lib/phases/EndScreen/EndScreen.css]
+          39 bytes {main} [built]\n[./src/lib/phases/Lobby/Lobby.css] 39 bytes {main}
+          [built]\n[./src/lib/phases/PlayScreen/PlayScreen.css] 39 bytes {main} [built]\n[./src/lib/phases/PlayScreen/images/aggButt.png]
+          6.77 KiB {main} [built]\n[./src/main/player/AggregationExamplePlayerController.css]
+          39 bytes {main} [built]\n[./src/main/player/index.js] ./src/main/player/index.js
+          + 14 modules 9.54 KiB {main} [built]\n    | ./src/main/player/index.js 662
+          bytes [built]\n    | ./src/main/player/AggregationExamplePlayerController.js
+          5.32 KiB [built]\n    | ./src/lib/phases/index.js 319 bytes [built]\n    |
+          ./src/main/GameEvents.js 135 bytes [built]\n    | ./src/main/UIEvents.js
+          162 bytes [built]\n    | ./src/lib/reducers/index.js 89 bytes [built]\n
+          \   | ./src/lib/utils/history.js 95 bytes [built]\n    | ./src/lib/utils/phaseRouter.js
+          233 bytes [built]\n    | ./src/lib/phases/Lobby/index.js 63 bytes [built]\n
+          \   | ./src/lib/phases/PlayScreen/index.js 68 bytes [built]\n    | ./src/lib/phases/EndScreen/index.js
+          67 bytes [built]\n    | ./src/lib/reducers/spreadReducer.js 1.15 KiB [built]\n
+          \   | ./src/lib/phases/Lobby/Lobby.js 359 bytes [built]\n    | ./src/lib/phases/PlayScreen/PlayScreen.js
+          581 bytes [built]\n    | ./src/lib/phases/EndScreen/EndScreen.js 208 bytes
+          [built]\n[./src/theme.css] 39 bytes {main} [built]\n    + 180 hidden modules\nWARNING
+          in asset size limit: The following asset(s) exceed the recommended size
+          limit (244 KiB).\nThis can impact web performance.\nAssets: \n  1-vendors.bundle.js
+          (322 KiB)\nWARNING in entrypoint size limit: The following entrypoint(s)
+          combined asset size exceeds the recommended limit (244 KiB). This can impact
+          web performance.\nEntrypoints:\n  main (473 KiB)\n      bundle.js\n      2-esc-controller-sdk-1.2.3-images.bundle.js\n
+          \     2-esc-controller-sdk-1.2.3.css\n      2-esc-controller-sdk-1.2.3.bundle.js\n
+          \     1-vendors.bundle.js\n      main.css\n      main.bundle.js\nWARNING
+          in webpack performance recommendations: \nYou can limit the size of your
+          bundles by using import() or require.ensure to lazy load some parts of your
+          application.\nFor more info visit https://webpack.js.org/guides/code-splitting/\nChild
+          html-webpack-plugin for \"index.html\":\n     1 asset\n    Entrypoint undefined
+          = index.html\n    [./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html]
+          671 bytes {0} [built]\n    [./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js
+          472 bytes {0} [built]\n    [./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js
+          497 bytes {0} [built]\n        + 1 hidden module\nChild mini-css-extract-plugin
+          ../../Aggregation Example/controllers/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-5-1!../../Aggregation
+          Example/controllers/node_modules/postcss-loader/src/index.js??postcss!../../Aggregation
+          Example/controllers/node_modules/@esc_games/esc-controller-sdk/ESCGameController.css:\n
+          \   Entrypoint mini-css-extract-plugin = *\n       2 modules\nChild mini-css-extract-plugin
+          ../../Aggregation Example/controllers/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-5-1!../../Aggregation
+          Example/controllers/node_modules/postcss-loader/src/index.js??postcss!../../Aggregation
+          Example/controllers/node_modules/@esc_games/esc-controller-sdk/debug/debug.css:\n
+          \   Entrypoint mini-css-extract-plugin = *\n       2 modules\nChild mini-css-extract-plugin
+          ../../Aggregation Example/controllers/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-5-1!../../Aggregation
+          Example/controllers/node_modules/postcss-loader/src/index.js??postcss!../../Aggregation
+          Example/controllers/node_modules/@esc_games/esc-controller-sdk/esc-default.css:\n
+          \   Entrypoint mini-css-extract-plugin = *\n       2 modules\nChild mini-css-extract-plugin
+          ../../Aggregation Example/controllers/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-5-1!../../Aggregation
+          Example/controllers/node_modules/postcss-loader/src/index.js??postcss!../../Aggregation
+          Example/controllers/node_modules/@esc_games/esc-controller-sdk/input/screen/Fullscreen.css:\n
+          \   Entrypoint mini-css-extract-plugin = *\n       2 modules\nChild mini-css-extract-plugin
+          ../../Aggregation Example/controllers/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-5-1!../../Aggregation
+          Example/controllers/node_modules/postcss-loader/src/index.js??postcss!../../Aggregation
+          Example/controllers/node_modules/@esc_games/esc-controller-sdk/input/screen/LockOrientation.css:\n
+          \   Entrypoint mini-css-extract-plugin = *\n       2 modules\nChild mini-css-extract-plugin
+          ../../Aggregation Example/controllers/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-5-1!../../Aggregation
+          Example/controllers/node_modules/postcss-loader/src/index.js??postcss!../../Aggregation
+          Example/controllers/node_modules/@esc_games/esc-controller-sdk/input/screen/Screen.css:\n
+          \   Entrypoint mini-css-extract-plugin = *\n       2 modules\nChild mini-css-extract-plugin
+          ../../Aggregation Example/controllers/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-5-1!../../Aggregation
+          Example/controllers/node_modules/postcss-loader/src/index.js??postcss!../../Aggregation
+          Example/controllers/src/lib/phases/EndScreen/EndScreen.css:\n    Entrypoint
+          mini-css-extract-plugin = *\n    [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/lib/phases/EndScreen/EndScreen.css]
+          ./node_modules/css-loader/dist/cjs.js??ref--4-oneOf-5-1!./node_modules/postcss-loader/src??postcss!./src/lib/phases/EndScreen/EndScreen.css
+          202 bytes {mini-css-extract-plugin} [built]\n        + 1 hidden module\nChild
+          mini-css-extract-plugin ../../Aggregation Example/controllers/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-5-1!../../Aggregation
+          Example/controllers/node_modules/postcss-loader/src/index.js??postcss!../../Aggregation
+          Example/controllers/src/lib/phases/Lobby/Lobby.css:\n    Entrypoint mini-css-extract-plugin
+          = *\n    [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/lib/phases/Lobby/Lobby.css]
+          ./node_modules/css-loader/dist/cjs.js??ref--4-oneOf-5-1!./node_modules/postcss-loader/src??postcss!./src/lib/phases/Lobby/Lobby.css
+          259 bytes {mini-css-extract-plugin} [built]\n        + 1 hidden module\nChild
+          mini-css-extract-plugin ../../Aggregation Example/controllers/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-5-1!../../Aggregation
+          Example/controllers/node_modules/postcss-loader/src/index.js??postcss!../../Aggregation
+          Example/controllers/src/lib/phases/PlayScreen/PlayScreen.css:\n    Entrypoint
+          mini-css-extract-plugin = *\n    [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/lib/phases/PlayScreen/PlayScreen.css]
+          ./node_modules/css-loader/dist/cjs.js??ref--4-oneOf-5-1!./node_modules/postcss-loader/src??postcss!./src/lib/phases/PlayScreen/PlayScreen.css
+          536 bytes {mini-css-extract-plugin} [built]\n        + 1 hidden module\nChild
+          mini-css-extract-plugin ../../Aggregation Example/controllers/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-5-1!../../Aggregation
+          Example/controllers/node_modules/postcss-loader/src/index.js??postcss!../../Aggregation
+          Example/controllers/src/main/player/AggregationExamplePlayerController.css:\n
+          \   Entrypoint mini-css-extract-plugin = *\n    [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/main/player/AggregationExamplePlayerController.css]
+          ./node_modules/css-loader/dist/cjs.js??ref--4-oneOf-5-1!./node_modules/postcss-loader/src??postcss!./src/main/player/AggregationExamplePlayerController.css
+          196 bytes {mini-css-extract-plugin} [built]\n        + 1 hidden module\nChild
+          mini-css-extract-plugin ../../Aggregation Example/controllers/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-5-1!../../Aggregation
+          Example/controllers/node_modules/postcss-loader/src/index.js??postcss!../../Aggregation
+          Example/controllers/src/theme.css:\n    Entrypoint mini-css-extract-plugin
+          = *\n    [./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/theme.css]
+          ./node_modules/css-loader/dist/cjs.js??ref--4-oneOf-5-1!./node_modules/postcss-loader/src??postcss!./src/theme.css
+          269 bytes {mini-css-extract-plugin} [built]\n        + 1 hidden module\n"
+        error: 'npm WARN file-loader@1.1.5 requires a peer of webpack@^2.0.0 || ^3.0.0
+          but none is installed. You must install peer dependencies yourself.
+
+          npm WARN html-webpack-plugin@2.29.0 requires a peer of webpack@1 || ^2 ||
+          ^2.1.0-beta || ^2.2.0-rc || ^3 but none is installed. You must install peer
+          dependencies yourself.
+
+          npm WARN ajv-keywords@3.4.1 requires a peer of ajv@^6.9.1 but none is installed.
+          You must install peer dependencies yourself.
+
+          npm WARN extract-text-webpack-plugin@3.0.2 requires a peer of webpack@^3.1.0
+          but none is installed. You must install peer dependencies yourself.
+
+          npm WARN sw-precache-webpack-plugin@0.11.4 requires a peer of webpack@^1
+          || ^2 || ^2.1.0-beta || ^2.2.0-beta || ^3 but none is installed. You must
+          install peer dependencies yourself.
+
+          npm WARN webpack-manifest-plugin@1.3.2 requires a peer of webpack@1 || 2
+          || 3 but none is installed. You must install peer dependencies yourself.
+
+'
+        exitCode: 0
+      url: 
+      name: Controller Builder
+      command: npm install && node upgrade-esc && npm run build
+      UIError: 
+  customAssetManager:
+    assets: []
+    autocompleteSearchField:
+      searchString: 
+      maxResults: 15
+      results: []
+      selectedIndex: -1
+--- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12111, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 400, y: 100}
+  m_MaxSize: {x: 2048, y: 2048}
+  m_TitleContent:
+    m_Text: Asset Store
+    m_Image: {fileID: -8693916549880196297, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 266
+    y: 74
+    width: 1218
+    height: 643
+  m_ViewDataDictionary: {fileID: 0}
+--- !u!114 &16
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_TitleContent:
+    m_Text: Project
+    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 69
+    y: 519
+    width: 1342
+    height: 639
+  m_ViewDataDictionary: {fileID: 0}
+  m_SearchFilter:
+    m_NameFilter: 
+    m_ClassNames: []
+    m_AssetLabels: []
+    m_AssetBundleNames: []
+    m_VersionControlStates: []
+    m_SoftLockControlStates: []
+    m_ReferencingInstanceIDs: 
+    m_SceneHandles: 
+    m_ShowAllHits: 0
+    m_SearchArea: 1
+    m_Folders:
+    - Assets
+  m_ViewMode: 1
+  m_StartGridSize: 73
+  m_LastFolders:
+  - Assets
+  m_LastFoldersGridSize: 73
+  m_LastProjectPath: /Users/pete/esc-game-studio/Aggregation Example
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 20290000
+    m_LastClickedID: 10528
+    m_ExpandedIDs: 000000002029000068290000722900009a2a000000ca9a3b
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 7}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_AssetTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 0000000020290000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_ListAreaState:
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c6230000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+    m_NewAssetIndexInList: -1
+    m_ScrollPosition: {x: 0, y: 0}
+    m_GridSize: 73
+  m_DirectoriesAreaWidth: 190
+--- !u!114 &17
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Inspector
+    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1342
+    y: 74
+    width: 576
+    height: 1031
+  m_ViewDataDictionary: {fileID: 0}
+  m_OpenAddComponentMenu: 0
+  m_ObjectsLockedBeforeSerialization: []
+  m_InstanceIDsLockedBeforeSerialization: 
+  m_LockTracker:
+    m_IsLocked: 0
+  m_PreviewResizer:
+    m_CachedPref: 147
+    m_ControlHash: -371814159
+    m_PrefName: Preview_InspectorPreview
+  m_PreviewWindow: {fileID: 0}
+--- !u!114 &18
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Hierarchy
+    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 20
+    width: 245
+    height: 370
+  m_ViewDataDictionary: {fileID: 0}
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: baf3ffffe4f3ffffe6f3ffffeaf3ffff56f4ffff80f4ffff82f4ffff86f4ffff06f5ffff30f5ffff12f6ffff16f6ffffbcf9ffff8cfbffff
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 6}
+      m_SearchString: 
+    m_ExpandedScenes: []
+    m_CurrenRootInstanceID: 0
+    m_LockTracker:
+      m_IsLocked: 0
+    m_CurrentSortingName: TransformSorting
+  m_WindowGUID: a771a43914b9d458ead6487ea4f670b8
+--- !u!114 &19
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Scene
+    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 234
+    y: 81
+    width: 1093
+    height: 643
+  m_ViewDataDictionary: {fileID: 0}
+  m_ShowContextualTools: 0
+  m_WindowGUID: 1fb139430dc1c410ea73a8b699cd6a3a
+  m_Gizmos: 1
+  m_SceneIsLit: 1
+  m_SceneLighting: 1
+  m_2DMode: 1
+  m_isRotationLocked: 0
+  m_PlayAudio: 0
+  m_AudioPlay: 0
+  m_Position:
+    m_Target: {x: 0, y: 0, z: 0}
+    speed: 2
+    m_Value: {x: 0, y: 0, z: 0}
+  m_RenderMode: 0
+  m_CameraMode:
+    drawMode: 0
+    name: Shaded
+    section: Shading Mode
+  m_ValidateTrueMetals: 0
+  m_DoValidateTrueMetals: 0
+  m_SceneViewState:
+    showFog: 1
+    showMaterialUpdate: 0
+    showSkybox: 1
+    showFlares: 1
+    showImageEffects: 1
+    showParticleSystems: 1
+  grid:
+    xGrid:
+      m_Target: 0
+      speed: 2
+      m_Value: 0
+    yGrid:
+      m_Target: 1
+      speed: 2
+      m_Value: 1
+    zGrid:
+      m_Target: 0
+      speed: 2
+      m_Value: 0
+  m_Rotation:
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    speed: 2
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
+  m_Size:
+    m_Target: 10
+    speed: 2
+    m_Value: 10
+  m_Ortho:
+    m_Target: 1
+    speed: 2
+    m_Value: 1
+  m_CameraSettings:
+    m_Speed: 1
+    m_SpeedNormalized: 0.5
+    m_SpeedMin: 0.01
+    m_SpeedMax: 2
+    m_EasingEnabled: 1
+    m_EasingDuration: 0.4
+    m_FieldOfView: 90
+    m_NearClip: 0.03
+    m_FarClip: 10000
+    m_DynamicClip: 1
+    m_OcclusionCulling: 0
+  m_ShowGlobalGrid: 1
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewOrtho: 0
+  m_ReplacementShader: {fileID: 0}
+  m_ReplacementString: 
+  m_SceneVisActive: 1
+  m_LastLockedObject: {fileID: 0}
+  m_ViewIsLockedToObject: 0
+--- !u!114 &20
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Game
+    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 316
+    y: 127
+    width: 1093
+    height: 373
+  m_ViewDataDictionary: {fileID: 0}
+  m_VSyncEnabled: 0
+  m_MaximizeOnPlay: 0
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 05000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_TargetDisplay: 0
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+    m_HBaseRangeMin: -316.5
+    m_HBaseRangeMax: 316.5
+    m_VBaseRangeMin: -178
+    m_VBaseRangeMax: 178
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 1
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 17
+      width: 1093
+      height: 356
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 546.5, y: 178}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -546.5
+      y: -178
+      width: 1093
+      height: 356
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_TargetTexture: {fileID: 0}
+  m_CurrentColorSpace: 0
+  m_LastWindowPixelSize: {x: 2186, y: 746}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 00000000000100000100
+  m_XRRenderMode: 0
+--- !u!114 &21
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Console
+    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 466
+    width: 1342
+    height: 639
+  m_ViewDataDictionary: {fileID: 0}

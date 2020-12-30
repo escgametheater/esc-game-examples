@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>ESC Games | %UNITY_WEB_NAME%</title>
+    <script src="%UNITY_WEBGL_LOADER_URL%"></script>
+    <script>
+      // See https://docs.unity3d.com/Manual/webgl-templates.html
+      var gameInstance = UnityLoader.instantiate("gameContainer", "%UNITY_WEBGL_BUILD_URL%",
+      {
+          onProgress: function (gameInstance, progress) {
+              // It's useless to show a progress bar because progress jumps to 0.9 very quickly
+              // and then sits there for a long time. Instead we can display our own transition
+              // and hide it when progress is complete.
+              if (progress === 1) {
+                  document.getElementById("loading").style.display = "none";
+              }
+          },
+      });
+
+      // Shimming these function so this can be loaded without errors without the host app
+      window.RelayHostMessageToMainProcess = window.RelayHostMessageToMainProcess || function () {};
+      window.StartWebsocketRelay = window.StartWebsocketRelay || function () {};
+
+    </script>
+  </head>
+  <body>
+    <div id="gameContainer" style="width: %UNITY_WIDTH%px; height: %UNITY_HEIGHT%px; margin: auto"></div>
+    <div id="loading" style="position:fixed; top: 0; left: 0; width:100%; height:100%; background-color: black; text-align: center">
+      <img id="logo" src="logo.png" style="height:50vh; position: relative; top:25vh;" >
+    </div>
+  </body>
+  <script>
+      // Very simple scaling transition
+      setTimeout(function () {
+          document.getElementById("loading").style.transition = "40s";
+          document.getElementById("loading").style.transform = "scale(2)";
+      },100);
+  </script>
+</html>

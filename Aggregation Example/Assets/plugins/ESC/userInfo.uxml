@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xmlns:upm="UnityEditor.PackageManager.UI"
+
+xsi:noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd"
+xsi:schemaLocation="
+                        UnityEngine.UIElements ../../../../UIElementsSchema/UnityEngine.UIElements.xsd
+                        UnityEditor.UIElements ../../../../UIElementsSchema/UnityEditor.UIElements.xsd
+                        UnityEditor.PackageManager.UI ../../../../UIElementsSchema/UnityEditor.PackageManager.UI.xsd
+"
+>
+    
+    <engine:VisualElement  name="welcomePanel" class = "horizontalContainer">
+    
+         <engine:Label  name="welcomeUser" text="" />
+         <engine:Button name="logOut" text="Log Out" tooltip="Bye bye" style="width: 150px"/>
+         
+    </engine:VisualElement>   
+   
+    
+    <engine:PopupWindow  name="gameSelectPanel" text="Game Settings">          
+                  
+                  <engine:VisualElement  name="all" text="" class="horizontalContainer">       
+         <engine:VisualElement  name="gameDefinedPanel" text="" class="horizontalContainer">                  
+                <engine:Label name="gameName" text="" class="gameInfoText"/>
+                <engine:Label name="gameSlug" text="" label = "Game Slug" tooltip="Game Slug" class="gameInfoText"/>
+                <engine:Label name="latestBuildVersion" text="" class="gameInfoText"/>                                                                                          
+                <engine:Button name="refreshGameInfo" text="Refresh" tooltip="Refresh Gamez Info"/>
+                <engine:Button name="changeScene" text="Scene" tooltip="Initialize the main scene"/>
+         </engine:VisualElement>
+         
+                                
+         <engine:VisualElement  name="gameSelectPanelButtons" class="horizontalContainer" >       
+            <engine:Button name="changeGame" text="Choose Game" tooltip="Select the game from those that already exist." />
+            <engine:Button name="newGame" text="New Game" tooltip="Create a new game." />
+         </engine:VisualElement>
+         
+             </engine:VisualElement>
+         <engine:PopupWindow name = "availableGamesPanel" text = "Choose a game">
+                <engine:VisualElement name = "availableGamesList">
+                </engine:VisualElement>  
+               
+                <engine:Button name="cancelAvailableGames" text="Cancel"/>              
+         </engine:PopupWindow>            
+          
+         <engine:PopupWindow name = "newGamePopup" text = "Create New Game">
+                <engine:TextField name="newGameSlug" text="" label = "Game Slug" tooltip="Game Slug" />                
+                <engine:TextField name="newGameDisplayName" text="" label="Display Name"/>
+                
+                <engine:Button name="confirmCreateNewSlug" text="Confirm" tooltip="This will create a new game slug." />
+                <engine:Button name="cancelCreateNewSlug" text="Cancel"/>                               
+         </engine:PopupWindow>
+                                       
+    </engine:PopupWindow>       
+      
+      
+         
+    <engine:PopupWindow  name="scenePanel" text="Scene Settings" > 
+         <engine:VisualElement  name="scenePanelButtons" class="horizontalContainer" >   
+              <engine:Button name="useCurrentSceneAsMain" text="Use Current Scene" tooltip="Use the current scene as the main scene." class="genericButton"/>
+              <engine:Button name="cancelSceneSettings" text="Done" tooltip="Close this panel." class="genericButton"/>     
+        </engine:VisualElement>
+       
+    </engine:PopupWindow>         
+               
+               
+    <engine:Label name="status" text="" tooltip="Is the game set up correctly?" />      
+       
+        
+    <!--<engine:Toggle name="noAutoLogin" text="Do not automatically show this project window every time." tooltip="Show this popup in the future? You can still open it by going to ESC/Login" />
+    -->
+         
+   
+    
+                      
+                     
+</engine:UXML>

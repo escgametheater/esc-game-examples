@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xmlns:upm="UnityEditor.PackageManager.UI"
+
+xsi:noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd"
+xsi:schemaLocation="
+                        UnityEngine.UIElements ../../../../UIElementsSchema/UnityEngine.UIElements.xsd
+                        UnityEditor.UIElements ../../../../UIElementsSchema/UnityEditor.UIElements.xsd
+                        UnityEditor.PackageManager.UI ../../../../UIElementsSchema/UnityEditor.PackageManager.UI.xsd">
+    
+    
+    <engine:VisualElement name = "line1" class = "line"></engine:VisualElement>
+    
+    <engine:VisualElement name = "line1" class = "horizontalContainer">
+        <engine:Label name="title"  text="CUSTOM ASSETS" class = "panelTitle"/>
+        <engine:Button name="refresh" text="Scan Files" class="panelButton"/>        
+    </engine:VisualElement>
+    
+    <engine:VisualElement name = "line2" class = "line"></engine:VisualElement>
+    
+    
+
+    <engine:VisualElement class="horizontalContainer">
+        <engine:VisualElement style="width: 150px">    
+            <engine:Button name="selectAllVisible" text="Select All" class="genericButton"/>
+            <engine:Button name="clearAllVisible" text="Clear Selected" class="genericButton"/>
+            <engine:Button name="selectAllLocal" text="Select All Local" class="genericButton"/>
+        </engine:VisualElement>    
+        <engine:VisualElement style="width: 150px">                     
+            <engine:Button name="downloadSelected" text="Download Selected" class="genericButton"/>
+        </engine:VisualElement>
+
+        <engine:VisualElement style="width: 150px" >
+            <engine:Button name="deleteSelected" text="Delete Selected" class="genericButton"/>
+            <engine:Toggle name="deleteLocal" text="Local"/>
+            <engine:Toggle name="deleteRemote" text="Remote"/>
+        </engine:VisualElement>
+        
+        <engine:VisualElement style="width: 150px" >
+                    <engine:Button name="uploadSelected" text="Upload Selected" class="genericButton"/>
+                    <engine:Button name="uploadAll" text="Upload All" class="genericButton"/>                 
+        </engine:VisualElement>
+    </engine:VisualElement>
+   
+              
+        <engine:TextField name="searchSlugField" text="" label="Find Slug:" 
+        tooltip="Search assets by slug" />                            
+      
+   
+     <engine:PopupWindow name = "assetPopup">
+    <engine:VisualElement name="assetListHeader" class="customAssetListHeader">
+        
+        <engine:Label name="selected" text="Select" class="selectCustomAsset"/>
+        
+        <engine:Label name="gameType" text="Game" class="gameTypeCustomAsset"/>
+            
+        <engine:VisualElement class="slugCustomAsset" >
+            <engine:Label name="slug" text = "Slug" style="width: 40px" />
+            <engine:Button name="slugSortUp" text = "▲" class="sortButton" />
+            <engine:Button name="slugSortDown" text = "▼" class="sortButton"/>
+        </engine:VisualElement>
+        
+        <engine:Label name="isPublic" text = "Public" class="isPublicCustomAsset"/>
+        
+        <engine:Label name="upload"  text="Put" class="transferCustomAsset"/>                            
+        <engine:Label name="download"  text="Get" class="transferCustomAsset"/>       
+                 
+        <engine:VisualElement class="fileTypeCustomAsset" >         
+            <engine:Label name="fileType" text = "Type" style="width: 40px"/>
+            <engine:Button name="fileTypeSortUp" text = "▲" class="sortButton" />
+            <engine:Button name="fileTypeSortDown" text = "▼" class="sortButton"/>
+        </engine:VisualElement>
+        
+         <engine:VisualElement class="fileNameCustomAsset" >
+                            <engine:Label name="fileName" text = "File Name" style="width: 40px" />                              
+                         </engine:VisualElement>
+                         
+        <engine:VisualElement class="remoteTimeCustomAsset" >   
+            <engine:Label name="remoteTime" text = "Last Uploaded" style="width: 100px"/>
+            <engine:Button name="remoteTimeSortUp" text = "▲" class="sortButton" />
+            <engine:Button name="remoteTimeSortDown" text = "▼" class="sortButton"/>
+        </engine:VisualElement>
+        
+                         
+    </engine:VisualElement>   
+    
+    <engine:VisualElement name = "assetList"></engine:VisualElement>
+    </engine:PopupWindow>    
+   
+    <engine:Label name="status" text = ""/>
+    <engine:Label name="slugStatus" text = "" style="color:rgb(255,0,0)"/>
+    <engine:PopupWindow name = "confirmDeleteRemote">
+        
+        <engine:Label name="title" text="Please confirm that you want to delete the remote assets." />
+        
+        <engine:VisualElement class="horizontalContainer">
+             <engine:Button name="confirmDeleteRemoteYes" text="Confirm"  class="genericButton"/>
+             <engine:Button name="confirmDeleteRemoteCancel"  text="Cancel"  class="genericButton"/>    
+        </engine:VisualElement>                      
+           
+    </engine:PopupWindow>    
+                
+                
+</engine:UXML>

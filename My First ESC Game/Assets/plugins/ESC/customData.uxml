@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xmlns:upm="UnityEditor.PackageManager.UI"
+
+xsi:noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd"
+xsi:schemaLocation="
+                        UnityEngine.UIElements ../../../../UIElementsSchema/UnityEngine.UIElements.xsd
+                        UnityEditor.UIElements ../../../../UIElementsSchema/UnityEditor.UIElements.xsd
+                        UnityEditor.PackageManager.UI ../../../../UIElementsSchema/UnityEditor.PackageManager.UI.xsd
+"
+>
+    
+    
+        <engine:VisualElement name = "line1" class = "line"></engine:VisualElement>
+         <engine:Label name="title"  text="Upload Custom Assets" class = "panelTitle"/>
+          <engine:VisualElement name = "line2" class = "line"></engine:VisualElement>
+          
+        
+        <engine:VisualElement class="horizontalContainer">    
+            
+            <engine:Button name="generateButton" text="Generate" tooltip="Coming soon." class="genericButton"/>
+          
+        </engine:VisualElement>
+        
+        
+        
+     <engine:PopupWindow name = "dataPopup">
+     
+            <engine:VisualElement name="dataListHeader" class="customAssetListHeader">
+                
+                <engine:Label name="gameType" text = "Type" class = "gameTypeCustomData"/>
+                <engine:Label name="slug" text = "Key" class = "slugCustomData" />
+                <engine:Label name="fileName" text = "File" class = "fileNameCustomData" />        
+                <engine:Label name="select" text = "Select File" class = "selectFileCustomData" />        
+                <engine:Label name="download"  text="Download" class="downloadCustomData"/>              
+                <engine:Label name="upload"  text="Upload" class="uploadCustomData"/>
+                                 
+            </engine:VisualElement>   
+            
+            <engine:VisualElement name = "dataList"></engine:VisualElement>
+    
+     </engine:PopupWindow>    
+        
+       
+        <engine:Label name="status" text=""/> 
+                
+</engine:UXML>

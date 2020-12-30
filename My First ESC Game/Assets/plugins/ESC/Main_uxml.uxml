@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xmlns:upm="UnityEditor.PackageManager.UI"
+
+xsi:noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd"
+xsi:schemaLocation="
+                        UnityEngine.UIElements ../../../../UIElementsSchema/UnityEngine.UIElements.xsd
+                        UnityEditor.UIElements ../../../../UIElementsSchema/UnityEditor.UIElements.xsd
+                        UnityEditor.PackageManager.UI ../../../../UIElementsSchema/UnityEditor.PackageManager.UI.xsd
+"
+>        
+        
+ 
+        
+         <engine:VisualElement name = "loginPanel"></engine:VisualElement>
+         
+          <engine:VisualElement name = "panels" >
+            <engine:VisualElement name = "panelButtons" class="horizontalContainer">
+                      <engine:Button name="buildGameButton" text="Build/Upload" tooltip="Build the Unity game and upload it." 
+                            class="windowButton"/>
+                      <engine:Button name="controllersButton" text="Controllers" class="windowButton"/>
+                      <engine:Button name="customDataButton" text="Custom Data"  class="windowButton"/>
+                      <engine:Button name="customAssetsButton" text="Custom Assets" class="windowButton"/>
+            </engine:VisualElement>                      
+                      
+                     <engine:VisualElement name = "buildGamePanel"></engine:VisualElement>
+                  
+                  <engine:VisualElement name = "controllersPanel">
+                
+                  </engine:VisualElement>
+                  
+                  <engine:VisualElement name = "customDataPanel">
+                
+                  </engine:VisualElement>
+                  
+                  <engine:VisualElement name = "customAssetsPanel">
+                
+                  </engine:VisualElement>             
+                                                                               
+          </engine:VisualElement>
+         
+         
+    
+</engine:UXML>

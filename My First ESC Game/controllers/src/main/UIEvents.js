@@ -1,0 +1,9 @@
+const GAME_ID = "My";
+const PREFIX = "Game:" + GAME_ID;
+
+const ACTION_START_PLAYING = PREFIX + ":START_PLAYING";
+
+export {
+	PREFIX,
+	ACTION_START_PLAYING,
+};

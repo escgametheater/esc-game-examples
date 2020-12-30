@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xmlns:upm="UnityEditor.PackageManager.UI"
+
+xsi:noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd"
+xsi:schemaLocation="
+                        UnityEngine.UIElements ../../../../UIElementsSchema/UnityEngine.UIElements.xsd
+                        UnityEditor.UIElements ../../../../UIElementsSchema/UnityEditor.UIElements.xsd
+                        UnityEditor.PackageManager.UI ../../../../UIElementsSchema/UnityEditor.PackageManager.UI.xsd
+"
+>
+<engine:VisualElement name="group" class="horizontalContainerSlim">
+    
+    
+    <engine:Toggle name="selected"  class="selectCustomAsset"/>
+    
+    <engine:Label name="gameType"  text="" class="gameTypeCustomAsset"/>
+
+    <engine:VisualElement class="slugCustomAsset" >
+        <engine:Label name="slug" text = ""  />        
+    </engine:VisualElement>
+    
+    <engine:Toggle name="isPublic" class="isPublicCustomAsset"/>               
+       
+    <engine:VisualElement class="uploadCustomAsset" >  
+        <engine:Button name="upload"  text="UP"/>
+    </engine:VisualElement>  
+           
+    <engine:VisualElement class="downloadCustomAsset" >  
+        <engine:Button name="download"  text="DL" />
+    </engine:VisualElement>          
+    
+    <engine:Label name="fileType" text = "" class="fileTypeCustomAsset"/>
+    
+    <engine:VisualElement class="fileNameCustomAsset" >  
+            <engine:Label name="fileName" text = "" />            
+        </engine:VisualElement>
+            
+   
+    <engine:Label name="remoteTime" text = "" class="remoteTimeCustomAsset"/>
+    
+
+    
+
+               
+</engine:VisualElement>        
+                
+</engine:UXML>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xmlns:upm="UnityEditor.PackageManager.UI"
+
+xsi:noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd"
+xsi:schemaLocation="
+                        UnityEngine.UIElements ../../../../UIElementsSchema/UnityEngine.UIElements.xsd
+                        UnityEditor.UIElements ../../../../UIElementsSchema/UnityEditor.UIElements.xsd
+                        UnityEditor.PackageManager.UI ../../../../UIElementsSchema/UnityEditor.PackageManager.UI.xsd
+"
+>
+    
+    
+        
+        <engine:Label name="title" text="BUILD THE GAME" />
+        
+        <engine:VisualElement class="horizontalContainer">    
+            <engine:TextField name="buildDir" text="" label="Build path" tooltip="Build path" />
+            <engine:Button name="changeBuildDirButton" text="Change Dir" tooltip="Will build the game here." class="genericButton"/>
+            <engine:Button name="buildButton"  text="Build" tooltip="Let's do it." class="genericButton"/>
+        </engine:VisualElement>
+        
+        <engine:VisualElement class="horizontalContainer">    
+            <engine:TextField name="zipPath" text="" label="Zip path" tooltip="Will upload this zip" />
+            <engine:Button name="changeZipDirButton" text="Change Zip" tooltip="Change which zip file" class="genericButton" style="align-self: flex-end"/>
+                   
+        </engine:VisualElement>
+        <engine:Label name="zipError" text=""/> 
+    
+    
+    
+           
+        
+       
+               
+        <engine:Button name="uploadButton" text="Upload" tooltip="Let's do it." class="genericButton"/>
+         
+    
+                
+</engine:UXML>

@@ -1,0 +1,329 @@
+.horizontalContainer {
+    margin: 5px;
+    flex-direction: row;
+    flex-wrap: wrap;    
+}
+
+.horizontalContainerSlim {
+    margin: 0px;
+    flex-direction: row;
+    flex-wrap: wrap;    
+}
+.customAssetListHeader{
+    -unity-font-style: bold;
+    color: rgb(255,255,255);
+     margin: 0px;
+        flex-direction: row;
+        flex-wrap: wrap;
+     
+}
+
+.gameTypeCloudLabel{
+  color:rgb(100,255,255);
+}
+
+.gameTypeLocalLabel{
+  color:rgb(255,255,255);
+}
+
+.gameTypeCustomAsset{
+    width: 50;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    margin: 0px;
+}
+
+.selectCustomAsset{
+    width: 50;
+    flex-direction: row;
+    flex-wrap: wrap;       
+    margin: 0px;
+    justify-content:center;
+}
+
+.fileNameCustomAsset{
+    width: 200;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    margin: 0px;
+   
+}
+
+
+
+.slugCustomAsset{
+    width: 200;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    margin: 0px;
+   
+}
+
+.slugCustomAssetWARNING{
+    width: 200;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    -unity-font-style: bold;
+    margin: 0px;
+    color: rgb(255,0,0);
+}
+
+.fileTypeCustomAsset{
+    width: 64;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    margin: 0px;
+  
+}
+
+
+.remoteTimeCustomAsset{
+    width: 130;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    margin: 0px;
+
+}
+
+.localTimeCustomAsset{
+    width: 150;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    margin: 0px;
+ 
+}
+
+.isPublicCustomAsset{
+    width: 50;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    margin: 0px;
+    justify-content:center;
+    align-items: center;
+}
+.transferCustomAsset{
+    width: 30;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    margin: 0px;
+    justify-content:center;    
+}
+
+.transferCustomAssetHIGHLIGHT{
+    width: 30;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    margin: 0px;
+    justify-content:center;   
+    color:rgb(0,170,255);
+}
+
+.transferCustomAssetWARNING{
+    width: 30;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    margin: 0px;
+    justify-content:center;   
+    color:rgb(255,200,0);
+}
+
+.gameTypeCustomData{
+    width: 70;
+    flex-direction: row;
+    flex-wrap: wrap;   
+    margin: 0px;  
+}
+.slugCustomData{
+    width: 150;
+    flex-direction: row;
+    flex-wrap: wrap;   
+    margin: 0px;  
+}
+.fileNameCustomData{
+    width: 150;
+    flex-direction: row;
+    flex-wrap: wrap;   
+    margin: 0px;  
+}
+.selectFileCustomData{
+    width: 90;
+    flex-direction: row;
+    flex-wrap: wrap;   
+    margin: 0px;  
+}
+.downloadCustomData{
+    width: 64;
+    flex-direction: row;
+    flex-wrap: wrap;   
+    margin: 0px;  
+}
+.uploadCustomData{
+    width: 64;
+    flex-direction: row;
+    flex-wrap: wrap;   
+    margin: 0px;  
+}
+
+
+
+
+
+.sortButton{
+width: 12;
+font-size: 10;
+height:10;
+background-image:none
+}
+
+.line {
+    
+    flex-direction: row;
+    flex-wrap: wrap;   
+    background-color: rgb(40,40,40);
+     height: 6px;
+}
+
+.panelTitle {     
+     color: rgb(255,255,255);    
+     -unity-font-style: bold;
+     
+}
+
+.genericButton {
+    width: 70px;
+    font-size: 9;    
+    -unity-text-align: middle-center;
+    white-space: normal;
+}
+
+.panelRow{
+     background-color: rgb(80,80,80);
+     height: 20px;
+     color: rgb(255,255,255);
+    
+     -unity-font-style: bold;
+     -unity-text-align: middle-center;
+}
+
+#gameInfo {
+    border-color: rgb(0,0,0);
+    border-radius: 1;
+}
+
+#cloudGameInfo {
+    border-color: rgb(0,0,125);
+    border-radius: 1;
+}
+
+.gameInfoText {
+    margin-left: 25px;
+    margin-right: 25px;    
+    flex-wrap: wrap;    
+}
+
+.controllerInfoText {
+    margin-left: 25px;
+    margin-right: 25px;    
+    flex-wrap: wrap;    
+}
+
+.errorDark{
+    color: rgb(253, 202, 0);   
+    font-size: 12;    
+    -unity-font-style: bold;
+}
+
+.errorLight{
+    color: rgb(200, 0, 0);   
+    font-size: 12;    
+    -unity-font-style: bold;
+}
+.genericButton {
+    width: 70px;
+    font-size: 9;
+    height: 30px;
+    -unity-text-align: middle-center;
+    white-space: normal;
+}
+
+.windowButton {
+    width: 100px;
+    height: 25px;   
+    font-size: 10;     
+    white-space: normal;
+    -unity-text-align: middle-center;   
+}
+
+#boxesContainer {
+    padding: 10px;
+    background-color: rgb(128, 128, 128);
+    align-self: flex-start;
+    flex-shrink: 0;
+}
+
+#boxesContainer > VisualElement {
+    width: 100px;
+    height: 100px;
+}
+
+#TwoPlusOneContainer {
+    height: 100px;
+    flex-shrink: 0;
+}
+
+#large {
+    flex: 0.7;
+    background-color: rgb(255, 0, 0);
+}
+
+#small {
+    flex: 0.3;
+    background-color: rgb(0, 0, 255);
+}
+
+#wrapContainer {
+    flex-wrap: wrap;
+}
+
+#wrapContainer > VisualElement {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    background-color: rgb(0, 0, 255);
+}
+
+.editorControlDisplayer {
+    flex-direction: row;
+}
+
+.editorControlDisplayer .extraField {
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.editorControlDisplayer .controlField {
+    flex: 1;
+}
+
+.focusButton {
+    max-height: 20px;    
+}
+
+.unity-list-view {
+    --unity-item-height: 20;
+}
+
+TreeView {
+    --unity-item-height: 15;
+}
+
+.split-container {
+    flex: 1;
+    padding: 10px;
+}
+
+.inner-container {
+    flex: 1;
+    overflow: hidden;
+}

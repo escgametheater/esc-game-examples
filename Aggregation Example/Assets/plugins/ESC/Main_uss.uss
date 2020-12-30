@@ -1,0 +1,120 @@
+.horizontalContainer {
+    margin: 5px;
+    flex-direction: row;
+    flex-wrap: wrap;    
+}
+
+.gameInfoText {
+    margin-left: 25px;
+    margin-right: 25px;    
+    flex-wrap: wrap;    
+}
+
+.controllerInfoText {
+    margin-left: 25px;
+    margin-right: 25px;    
+    flex-wrap: wrap;    
+}
+
+.errorDark{
+    color: rgb(253, 202, 0);   
+    font-size: 12;    
+    -unity-font-style: bold;
+}
+
+.errorLight{
+    color: rgb(200, 0, 0);   
+    font-size: 12;    
+    -unity-font-style: bold;
+}
+.genericButton {
+    width: 70px;
+    font-size: 8;
+    height: 20px;
+    -unity-text-align: middle-center;
+    white-space: normal;
+}
+
+.panelButton {
+    width: 100px;
+    height: 25px;   
+    font-size: 10;     
+    white-space: normal;
+    -unity-text-align: middle-center;
+    
+    
+}
+
+#boxesContainer {
+    padding: 10px;
+    background-color: rgb(128, 128, 128);
+    align-self: flex-start;
+    flex-shrink: 0;
+}
+
+#boxesContainer > VisualElement {
+    width: 100px;
+    height: 100px;
+}
+
+#TwoPlusOneContainer {
+    height: 100px;
+    flex-shrink: 0;
+}
+
+#large {
+    flex: 0.7;
+    background-color: rgb(255, 0, 0);
+}
+
+#small {
+    flex: 0.3;
+    background-color: rgb(0, 0, 255);
+}
+
+#wrapContainer {
+    flex-wrap: wrap;
+}
+
+#wrapContainer > VisualElement {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    background-color: #0000FF;
+}
+
+.editorControlDisplayer {
+    flex-direction: row;
+}
+
+.editorControlDisplayer .extraField {
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.editorControlDisplayer .controlField {
+    flex: 1;
+}
+
+.focusButton {
+    max-height: 20px;    
+}
+
+.unity-list-view {
+    --unity-item-height: 20;
+}
+
+TreeView {
+    --unity-item-height: 15;
+}
+
+.split-container {
+    flex: 1;
+    padding: 10px;
+}
+
+.inner-container {
+    flex: 1;
+    overflow: hidden;
+}

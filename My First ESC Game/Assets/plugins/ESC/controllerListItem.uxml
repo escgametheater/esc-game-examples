@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xmlns:upm="UnityEditor.PackageManager.UI"
+
+xsi:noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd"
+xsi:schemaLocation="
+                        UnityEngine.UIElements ../../../../UIElementsSchema/UnityEngine.UIElements.xsd
+                        UnityEditor.UIElements ../../../../UIElementsSchema/UnityEditor.UIElements.xsd
+                        UnityEditor.PackageManager.UI ../../../../UIElementsSchema/UnityEditor.PackageManager.UI.xsd
+"
+>
+<engine:VisualElement name="group" class="horizontalContainer">
+    
+    <engine:Label name="gameType" text = "" class="controllerInfoText"/>
+    <engine:Label name="controllerType" text = "" class="controllerInfoText"/>
+    
+       <engine:Label name="zip" text = "" class="controllerInfoText"/>
+               
+       <engine:Button name="start"  text="Start" tooltip="Start this controllers dev server" class="controllerListButton"/>
+       <engine:Button name="stop"  text="Stop" tooltip="Stop controller dev server" class="controllerListButton"/>
+       <engine:Button name="preview"  text="Preview" tooltip="Open a browser and preview this controller" class="controllerListButton"/>
+       <engine:Button name="upload"  text="Upload" tooltip="Upload me" class="controllerListButton"/>
+       <engine:Button name="settings"  text="Settings" tooltip="set controller directory and other settings" class="controllerListButton"/>
+               
+</engine:VisualElement>        
+                
+</engine:UXML>

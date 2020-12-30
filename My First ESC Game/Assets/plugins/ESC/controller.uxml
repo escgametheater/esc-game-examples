@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xmlns:upm="UnityEditor.PackageManager.UI"
+
+xsi:noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd"
+xsi:schemaLocation="
+                        UnityEngine.UIElements ../../../../UIElementsSchema/UnityEngine.UIElements.xsd
+                        UnityEditor.UIElements ../../../../UIElementsSchema/UnityEditor.UIElements.xsd
+                        UnityEditor.PackageManager.UI ../../../../UIElementsSchema/UnityEditor.PackageManager.UI.xsd
+"
+>
+
+
+    
+ <engine:VisualElement name = "line1" class = "line"></engine:VisualElement>
+ <engine:Label name="controllerLabel"  text="CONTROLLERS" class = "panelTitle"/>
+  <engine:VisualElement name = "line2" class = "line"></engine:VisualElement>
+        
+    <engine:VisualElement name = "buttonRow" class = "horizontalContainer">
+        <engine:Button name="createControllerWindowButton"  text="New" tooltip="Make a new controller" 
+            class="genericButton"/>    
+        <engine:Button name="buildAllButton"  text="Build All" tooltip="Build all controllers" 
+            class="genericButton"/>
+        <engine:Button name="uploadAllButton"  text="Upload All" tooltip="Upload all controllers" 
+            class="genericButton"/>
+            
+            <engine:Toggle name="verboseLogging" text="Verbose logs" tooltip="Print very verbose npm logs to the console." />
+     </engine:VisualElement>
+    
+    
+    <engine:Label name="status" text=""/>
+    
+    <!--<engine:Label name="controllerLabel"  text="GAME CONTROLLERS"/>-->
+    <engine:VisualElement name = "controllerList">        </engine:VisualElement>
+    
+    
+    <engine:PopupWindow name = "createNewControllerPopup" class = "horizontalContainer" text="Add a New Controller">
+            
+            <engine:Button name="closeNewControllerButton"  text="Cancel" tooltip="Close this panel" class="genericButton" />
+            <engine:Button name="createControllerButton" text="Create" tooltip="Change the location of the controller" class="genericButton"/>
+            
+           <!-- <engine:PopupField name="createControllerType" label = "Controller"/> -->
+            
+            <engine:PopupWindow name = "confirmNewControllerPopup">
+                <engine:Label name = "confirmNewControllerText"/>
+                <engine:Button name = "okConfirmNewControllerButton" text="Ok" class="genericButton"/>
+                <engine:Button name = "cancelConfirmNewControllerButton" text="Cancel" class="genericButton"/>
+            </engine:PopupWindow>
+            
+            
+            
+    </engine:PopupWindow>
+    
+    <engine:PopupWindow name = "controllerSettings" text="Controller Settings">
+                                                     
+        <engine:Label name="controllerTypeLabel" text="" />                                                     
+                                                     
+        <engine:VisualElement name = "dirRow" class = "horizontalContainer">
+            <engine:Label name="controllerDir" text="" label="Build path" tooltip="Controller lives here" />                               
+        </engine:VisualElement>
+        
+        <engine:VisualElement name = "zipRow" class = "horizontalContainer">
+             <engine:Label name="zipFile" text="" label="Build path" tooltip="Controller zip file to upload" />
+             <engine:Button name="changeZipFileButton" text="Open Custom Build" tooltip="Open a custom zip file if you really want to." />                               
+        </engine:VisualElement>
+        
+        <engine:TextField name="defaultRunCommand" text="" label="Default Run Command" tooltip="Default run command" />
+        
+        <engine:VisualElement name = "buttonRow" class = "horizontalContainer">
+            <engine:Button name="settingsRunButton"  text="Run" tooltip="Let's do it." class="genericButton"/>
+        
+            <engine:Button name="settingsUploadButton"  text="Upload" tooltip="Upload." class="genericButton"/>    
+        
+            <engine:Button name="settingsBuildButton"  text="Build" tooltip="Build this controller" class="genericButton"/>
+            <engine:Button name="settingsCancelButton"  text="Cancel Build" tooltip="Stop what you are doing" class="genericButton"/>
+        
+            <engine:Button name="closeSettingsButton"  text="Done" tooltip="Close this panel" class="genericButton"/>
+        </engine:VisualElement>
+    </engine:PopupWindow>
+    
+    
+                
+</engine:UXML>

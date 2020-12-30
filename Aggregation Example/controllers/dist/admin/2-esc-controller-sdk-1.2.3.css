@@ -1,0 +1,366 @@
+.ribbon {
+    font-size: 16px !important;
+    /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
+
+    position: absolute;
+    background: #ba89b6;
+    color: #fff;
+    text-align: center;
+    padding: 1em 2em; /* Adjust to suit */
+    margin: 2em auto 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+}
+.ribbon:before, .ribbon:after {
+    content: "";
+    position: absolute;
+    display: block;
+    bottom: -0.25em;
+    border: 1.5em solid #986794;
+    z-index: -1;
+}
+.ribbon:before {
+    left: -2em;
+    border-right-width: 1.5em;
+    border-left-color: transparent;
+}
+.ribbon:after {
+    right: -2em;
+    border-left-width: 1.5em;
+    border-right-color: transparent;
+}
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+    content: "";
+    position: absolute;
+    display: block;
+    border-style: solid;
+    border-color: #804f7c transparent transparent transparent;
+    bottom: -0.25em;
+}
+.ribbon .ribbon-content:before {
+    left: 0;
+    border-width: 1em 0 0 1em;
+}
+.ribbon .ribbon-content:after {
+    right: 0;
+    border-width: 1em 1em 0 0;
+}
+.visible {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 177ms ease-out;
+}
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 250ms, opacity 250ms ease-in-out;
+}
+div {
+    font-size: 100%;
+}
+img
+{
+    -webkit-user-select:none; /* Prevent image selection popups */ /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+    -webkit-touch-callout:none;
+}
+#root {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */ /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.bottom-visible {
+    position: absolute;
+    bottom:0;
+}
+.right-visible {
+    position: absolute;
+    right:0;
+}
+.top-visible {
+    position: absolute;
+    top:0;
+}
+.left-visible {
+    position: absolute;
+    left:0;
+}
+
+.tattooSize {
+    width:6.25em;
+    height:6.25em;
+}
+
+.tattooBarContainer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: black;
+}
+
+.tattooBarContainer .escLogo {
+    width: 7%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.tattooBarContainer .spacer {
+    width: 87%;
+    height: 4.5em;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.tattooBar {
+    width: 6%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.tattooBar .tattooSize {
+    width: 100%;
+    height: 100%;
+    float: right;
+}
+
+.network-disconnect {
+    position: absolute;
+    top: 50% ;
+    left: 50% ;
+    transform: translateY(-50%) translateX(-50%);
+    padding: 1em;
+    background-color: #222222;
+    color: #ba89b6;
+}
+
+.pubnub-inactive {
+    text-decoration: line-through;
+}
+
+.websocket-inactive {
+    text-decoration: line-through;
+}
+
+.pubnub-status {
+    position: fixed;
+    top: 0;
+    right : 3em;
+}
+
+.websocket-status {
+    position: fixed;
+    top: 0;
+    right : 5em;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+       text-size-adjust: 100%;
+}
+
+html, body {	
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	display: flex;
+  transform-origin: 0 0;
+  will-change: transform, width, height;
+  z-index: 1;
+  transform: scale(1);
+}
+
+body.lock-orientation__landscape {
+  transform: rotate(-90deg) translateX(-100%) scale(1);
+  width: calc(var(--altVmax) * 100);
+  height: calc(var(--altVmin) * 100);
+}
+
+body.lock-orientation__portrait {
+  transform: rotate(90deg) translateY(-100%) scale(1);
+  width: calc(var(--altVmin) * 100);
+  height: calc(var(--altVmax) * 100);
+}
+
+body.lock-orientation__portrait.orientation__landscape-primary {
+  transform: rotate(-90deg) translateX(-100%) scale(1);
+}
+
+@media screen and (orientation: landscape) {
+  body {
+    width: calc(var(--altVmax) * 100);
+    height: calc(var(--altVmin) * 100);
+  }
+}
+
+.size-considering-locked-orientation {
+  display: flex;
+  position: fixed;
+  transform: translate3d(0,0,0);
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+
+
+@media screen and (orientation: landscape) {
+  .size-considering-locked-orientation {
+    width: calc(var(--altVmax) * 100);
+    height: calc(var(--altVmin) * 100);
+  }
+}
+
+.lock-orientation__landscape .size-considering-locked-orientation {
+  width: calc(var(--altVmax) * 100);
+  height: calc(var(--altVmin) * 100);
+}
+
+.lock-orientation__portrait .size-considering-locked-orientation {
+  width: calc(var(--altVmin) * 100);
+  height: calc(var(--altVmax) * 100);
+}
+
+#virtual-scroll-area {
+	width: 10px;
+	height: calc(var(--altVmax) * 100);
+	opacity: 0;
+	visibility: visible;
+	position: relative;
+	z-index: 10;
+}
+
+#virtual-scroll-area.soft-full-screen {
+	height: calc(var(--altVmax) * 125);
+}
+
+#full-screen-takeover {
+	display: flex;
+	background: #ccc;
+	opacity: .95;
+	flex-flow: row;
+	justify-content: flex-end;
+	align-items: flex-end;
+	z-index: 5;
+}
+
+#full-screen-takeover p {
+	flex: 1 1;
+	margin: 0;
+	font-family: sans-serif;
+	letter-spacing: .1rem;
+	text-shadow: 0 1px 1px #fff;
+	font-weight: 600;
+	color: #000;
+}
+
+
+#full-screen-takeover .message-container {
+	text-align: center;
+	flex: 1 1;
+	margin-bottom: 5%;
+}
+
+.soft-full-screen + #full-screen-takeover .message-container {
+	margin-bottom: calc(var(--altVmax) * 30);
+}
+
+#full-screen-takeover .up-arrow {
+	font-size: 2rem;
+	-webkit-animation-name: bounce-arrow;
+	        animation-name: bounce-arrow;
+	-webkit-animation-duration: 2s;
+	        animation-duration: 2s;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes bounce-arrow {
+	0%, 10%, 25%, 40%, 50% {
+		transform: translateY(0);
+	}
+	20% {
+		transform: translateY(-30px);
+	}
+	30% {
+		transform: translateY(-15px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
+@keyframes bounce-arrow {
+	0%, 10%, 25%, 40%, 50% {
+		transform: translateY(0);
+	}
+	20% {
+		transform: translateY(-30px);
+	}
+	30% {
+		transform: translateY(-15px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
+/* @todo -- get these styles from design */
+.lock-orientation {
+	z-index: 100;
+	background: #ccc;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	font-family: sans-serif;
+	font-size: 1rem;
+	letter-spacing: .1rem;
+	text-shadow: 0 1px 1px #fff;
+	font-weight: 600;
+}
+
+@media (orientation: landscape) {
+	/* landscape lock, and in landscape ... hide locker */
+	.landscape.lock-orientation,
+	.landscape-primary.lock-orientation,
+	.landscape-seconary.lock-orientation {
+		display: none;
+	}
+
+	.portrait.lock-orientation+.esc-controller,
+	.portrait-primary.lock-orientation+.esc-controller,
+	.portrait-seconary.lock-orientation+.esc-controller {
+		display: none;
+	}
+}
+
+@media (orientation: portrait) {
+	/* portrait lock, and in portrait ... hide locker */
+	.portrait.lock-orientation,
+	.portrait-primary.lock-orientation,
+	.portrait-seconary.lock-orientation {
+		display: none;
+	}
+
+	.landscape.lock-orientation+.esc-controller,
+	.landscape-primary.lock-orientation+.esc-controller,
+	.landscape-seconary.lock-orientation+.esc-controller {
+		display: none;
+	}
+}
+
+.esc-controller {
+	height: calc(var(--altVmax) * 100);
+	max-height: calc(var(--altVmax) * 100);
+}
+

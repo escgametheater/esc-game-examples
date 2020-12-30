@@ -1,0 +1,6 @@
+/* Styles which should apply to all controllers */
+
+.esc-game-controller {
+	font-family: sans-serif;
+	font-size: .9rem;
+}

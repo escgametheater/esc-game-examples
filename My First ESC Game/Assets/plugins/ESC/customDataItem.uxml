@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xmlns:upm="UnityEditor.PackageManager.UI"
+
+xsi:noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd"
+xsi:schemaLocation="
+                        UnityEngine.UIElements ../../../../UIElementsSchema/UnityEngine.UIElements.xsd
+                        UnityEditor.UIElements ../../../../UIElementsSchema/UnityEditor.UIElements.xsd
+                        UnityEditor.PackageManager.UI ../../../../UIElementsSchema/UnityEditor.PackageManager.UI.xsd
+"
+>
+<engine:VisualElement name="group" class="horizontalContainerSlim">
+    
+    <engine:VisualElement class="gameTypeCustomData" >
+        <engine:Label name="gameTypeLabel" text = "" />
+    </engine:VisualElement>
+    
+    <engine:VisualElement class="slugCustomData" > 
+        <engine:Label name="slugLabel" text = "" />
+    </engine:VisualElement>
+    
+    <engine:VisualElement class="fileNameCustomData" > 
+        <engine:Label name="fileNameLabel" text = "" />
+    </engine:VisualElement>
+    
+    <engine:VisualElement class="selectFileCustomData" >
+        <engine:Button name="selectFileButton" text = "Choose" class="genericButton"/>
+    </engine:VisualElement>
+           
+    <engine:VisualElement class="downloadCustomData" >  
+        <engine:Button name="downloadButton"  text="▼" style="width: 20px"/>
+    </engine:VisualElement>
+            
+    <engine:VisualElement class="uploadCustomData" >  
+        <engine:Button name="uploadButton"  text="▲" style="width: 20px"/>
+    </engine:VisualElement>        
+               
+</engine:VisualElement>        
+                
+</engine:UXML>

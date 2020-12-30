@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Aggregation Example.sln" t="IncludeFlat" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="DataManager.cs" t="Include" />
+          <e p="GameManager.cs" t="Include" />
+          <e p="InputControl.cs" t="Include" />
+          <e p="PlayerController.cs" t="Include" />
+        </e>
+      </e>
+      <e p="controllers/node_modules/@babel/cli" t="IncludeRecursive" />
+      <e p="controllers/node_modules/@babel/core" t="IncludeRecursive" />
+      <e p="controllers/node_modules/@babel/plugin-proposal-class-properties" t="IncludeRecursive" />
+      <e p="controllers/node_modules/@babel/plugin-proposal-export-default-from" t="IncludeRecursive" />
+      <e p="controllers/node_modules/@babel/plugin-syntax-dynamic-import" t="IncludeRecursive" />
+      <e p="controllers/node_modules/@babel/plugin-transform-runtime" t="IncludeRecursive" />
+      <e p="controllers/node_modules/@babel/preset-env" t="IncludeRecursive" />
+      <e p="controllers/node_modules/@babel/preset-react" t="IncludeRecursive" />
+      <e p="controllers/node_modules/@babel/runtime" t="IncludeRecursive" />
+      <e p="controllers/node_modules/@esc_games/esc-controller-build-configurator" t="IncludeRecursive" />
+      <e p="controllers/node_modules/@esc_games/esc-controller-sdk" t="IncludeRecursive" />
+      <e p="controllers/node_modules/@esc_games/esc-react-redux" t="IncludeRecursive" />
+      <e p="controllers/node_modules/@svgr/webpack" t="IncludeRecursive" />
+      <e p="controllers/node_modules/@types" t="IncludeRecursive">
+        <e p="anymatch" t="IncludeRecursive" />
+        <e p="events" t="IncludeRecursive" />
+        <e p="minimatch" t="IncludeRecursive" />
+        <e p="node" t="IncludeRecursive" />
+        <e p="tapable" t="IncludeRecursive" />
+        <e p="uglify-js" t="IncludeRecursive" />
+      </e>
+      <e p="controllers/node_modules/autoprefixer" t="IncludeRecursive" />
+      <e p="controllers/node_modules/babel-loader" t="IncludeRecursive" />
+      <e p="controllers/node_modules/clean-webpack-plugin" t="IncludeRecursive" />
+      <e p="controllers/node_modules/cross-env" t="IncludeRecursive" />
+      <e p="controllers/node_modules/css-loader" t="IncludeRecursive" />
+      <e p="controllers/node_modules/file-loader" t="IncludeRecursive" />
+      <e p="controllers/node_modules/history" t="IncludeRecursive" />
+      <e p="controllers/node_modules/html-webpack-plugin" t="IncludeRecursive" />
+      <e p="controllers/node_modules/mini-css-extract-plugin" t="IncludeRecursive" />
+      <e p="controllers/node_modules/npm-run-all" t="IncludeRecursive" />
+      <e p="controllers/node_modules/postcss-flexbugs-fixes" t="IncludeRecursive" />
+      <e p="controllers/node_modules/postcss-loader" t="IncludeRecursive" />
+      <e p="controllers/node_modules/react" t="IncludeRecursive" />
+      <e p="controllers/node_modules/react-dom" t="IncludeRecursive" />
+      <e p="controllers/node_modules/react-hot-loader" t="IncludeRecursive" />
+      <e p="controllers/node_modules/react-router-dom" t="IncludeRecursive" />
+      <e p="controllers/node_modules/sass-loader" t="IncludeRecursive" />
+      <e p="controllers/node_modules/source-map" t="IncludeRecursive" />
+      <e p="controllers/node_modules/style-loader" t="IncludeRecursive" />
+      <e p="controllers/node_modules/url-loader" t="IncludeRecursive" />
+      <e p="controllers/node_modules/webpack" t="IncludeRecursive" />
+      <e p="controllers/node_modules/webpack-cli" t="IncludeRecursive" />
+      <e p="controllers/node_modules/webpack-dev-server" t="IncludeRecursive" />
+      <e p="controllers/node_modules/zip-webpack-plugin" t="IncludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp/bin" t="ExcludeRecursive" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_Aggregation Example.940377972.00" t="ExcludeRecursive" />
+  </component>
+</project>

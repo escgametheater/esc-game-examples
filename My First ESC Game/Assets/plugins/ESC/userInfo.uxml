@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xmlns:upm="UnityEditor.PackageManager.UI"
+
+xsi:noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd"
+xsi:schemaLocation="
+                        UnityEngine.UIElements ../../../../UIElementsSchema/UnityEngine.UIElements.xsd
+                        UnityEditor.UIElements ../../../../UIElementsSchema/UnityEditor.UIElements.xsd
+                        UnityEditor.PackageManager.UI ../../../../UIElementsSchema/UnityEditor.PackageManager.UI.xsd
+"
+>
+    
+    <engine:VisualElement  name="welcomePanel" class = "horizontalContainer">
+    
+         <engine:Label  name="welcomeUser" text="" />
+         <engine:Button name="logOut" text="Log Out" tooltip="Bye bye" style="width: 150px"/>
+         
+    </engine:VisualElement>   
+   
+    
+    <engine:VisualElement  name="gameSelectPanel" text="Game Settings">          
+                  
+                  <engine:VisualElement  name="all" text="" class="horizontalContainer">       
+                  
+                  
+                  
+         <engine:VisualElement  name="gameInfo" text="" class="horizontalContainer">
+                <engine:Label name="title" text="  Local |" class="gameInfoText"/>                  
+                <engine:Label name="gameName" text="" class="gameInfoText"/>
+                <engine:Label name="gameSlug" text="" label = "Game Slug" tooltip="Game Slug" class="gameInfoText"/>
+                <engine:Label name="latestBuildVersion" text="" class="gameInfoText"/>                                                                                                          
+                <engine:Button name="changeScene" text="Scene" tooltip="Initialize the main scene"/>
+                <engine:Button name="refreshGameInfo" text="Refresh" tooltip="Refresh Gamez Info"/>
+         </engine:VisualElement>
+         
+                  <engine:VisualElement  name="cloudGameInfo" text="" class="horizontalContainer">
+                        <engine:Label name="title" text="Cloud  |" class="gameInfoText"/>                  
+                         <engine:Label name="gameName" text="" class="gameInfoText"/>
+                         <engine:Label name="gameSlug" text="" label = "Game Slug" tooltip="Game Slug" class="gameInfoText"/>
+                         <engine:Label name="latestBuildVersion" text="" class="gameInfoText"/>                                                                                          
+                        <engine:Button name="removeCloudGame" text="Remove" tooltip="Unassign the cloud game"/>
+                  </engine:VisualElement>
+         
+         <engine:VisualElement  name="gameSelectPanelButtons" class="horizontalContainer" >       
+            <engine:Button name="changeGame" text="Choose Game" tooltip="Select the game from those that already exist." />
+            <engine:Button name="changeCloudGame" text="Choose Cloud Game" tooltip="Select the cloud game from those that already exist." />
+            <engine:Button name="newGame" text="New Game" tooltip="Create a new game." />            
+         </engine:VisualElement>
+         
+         
+             </engine:VisualElement>
+         <engine:PopupWindow name = "availableGamesPanel" text = "Choose a game">
+                <engine:Label name="status" text="" />
+                <engine:VisualElement name = "availableGamesList">
+                </engine:VisualElement>  
+                               
+                <engine:Button name="cancel" text="Cancel"/>              
+         </engine:PopupWindow>            
+          
+         <engine:PopupWindow name = "newGamePopup" text = "Create A New Game">
+                <engine:TextField name="slug" text="" label = "Game Slug" tooltip="Game Slug" />                
+                <engine:TextField name="displayName" text="" label="Display Name"/>
+                
+                <engine:VisualElement  name="scenePanelButtons" class="horizontalContainer" >  
+                    <engine:Button name="confirm" text="Create Game" tooltip="This will create a new game." class="genericButton"/>
+                    <engine:Button name="confirmCloud" text="Create Cloud Game" tooltip="This will create a new cloud game." class="genericButton"/>
+                    <engine:Button name="cancel" text="Cancel" class="genericButton"/>  
+                 </engine:VisualElement>
+                 
+                <engine:Label name="status"/>                             
+         </engine:PopupWindow>
+                                       
+    </engine:VisualElement>       
+      
+      
+         
+    <engine:PopupWindow  name="scenePanel" text="Scene Settings" > 
+         <engine:VisualElement  name="scenePanelButtons" class="horizontalContainer" >   
+              <engine:Button name="useCurrentSceneAsMain" text="Use Current Scene" tooltip="Use the current scene as the main scene." class="genericButton"/>
+              <engine:Button name="cancelSceneSettings" text="Done" tooltip="Close this panel." class="genericButton"/>     
+        </engine:VisualElement>
+       
+    </engine:PopupWindow>         
+               
+               
+    <engine:Label name="mainStatus" text="" tooltip="Is the game set up correctly?" />      
+       
+        
+    <!--<engine:Toggle name="noAutoLogin" text="Do not automatically show this project window every time." tooltip="Show this popup in the future? You can still open it by going to ESC/Login" />
+    -->
+         
+   
+    
+                      
+                     
+</engine:UXML>

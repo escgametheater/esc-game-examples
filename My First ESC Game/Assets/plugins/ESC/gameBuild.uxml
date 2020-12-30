@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xmlns:upm="UnityEditor.PackageManager.UI"
+
+xsi:noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd"
+xsi:schemaLocation="
+                        UnityEngine.UIElements ../../../../UIElementsSchema/UnityEngine.UIElements.xsd
+                        UnityEditor.UIElements ../../../../UIElementsSchema/UnityEditor.UIElements.xsd
+                        UnityEditor.PackageManager.UI ../../../../UIElementsSchema/UnityEditor.PackageManager.UI.xsd
+"
+>
+    
+        
+          <engine:VisualElement name = "line1" class = "line"></engine:VisualElement>
+            <engine:Label name="title"  text="LOCAL GAME" class = "panelTitle"/>
+            <engine:VisualElement name = "line2" class = "line"></engine:VisualElement>
+        
+        <engine:VisualElement class="horizontalContainer">    
+            <engine:TextField name="buildDir" text="" label="Build path" tooltip="Build path" style="width: 250px"/>
+            <engine:Button name="changeBuildDirButton" text="Change Dir" tooltip="Will build the game here." class="genericButton"/>
+            <engine:Button name="buildButton"  text="Build" tooltip="Let's do it." class="genericButton"/>
+        </engine:VisualElement>
+        
+        <engine:VisualElement class="horizontalContainer">    
+            <engine:TextField name="zipPath" text="" label="Zipped Build" tooltip="Will upload this zip" style="width: 250px"/>
+            <engine:Button name="changeZipDirButton" text="Select" tooltip="Change which zip file" class="genericButton" style="align-self: flex-end"/>
+            <engine:Button name="uploadButton" text="Upload" tooltip="Let's do it." class="genericButton" style="align-self: flex-end"/>
+            <engine:Label name="zipError" text=""/>                        
+        </engine:VisualElement>
+       
+       
+             <engine:VisualElement name = "line1" class = "line"></engine:VisualElement>
+               <engine:Label name="title"  text="CLOUD GAME" class = "panelTitle"/>
+               <engine:VisualElement name = "line2" class = "line"></engine:VisualElement>
+               
+               <engine:VisualElement class="horizontalContainer">    
+                   <engine:TextField name="cloudBuildDir" text="" label="Build path" tooltip="Build path" style="width: 250px"/>
+                   <engine:Button name="cloudChangeBuildDirButton" text="Change Dir" tooltip="Will build the game here." class="genericButton"/>
+                   <engine:Button name="cloudBuildButton"  text="Build" tooltip="Let's do it." class="genericButton"/>
+               </engine:VisualElement>
+               
+               <engine:VisualElement class="horizontalContainer">    
+                   <engine:TextField name="cloudZipPath" text="" label="Zipped Build" tooltip="Will upload this zip" style="width: 250px"/>
+                   <engine:Button name="cloudChangeZipDirButton" text="Select" tooltip="Change which zip file" class="genericButton" style="align-self: flex-end"/>
+                   <engine:Button name="cloudUploadButton" text="Upload" tooltip="Let's do it." class="genericButton" style="align-self: flex-end"/>
+                   <engine:Label name="cloudZipError" text=""/>                        
+               </engine:VisualElement>
+              
+</engine:UXML>

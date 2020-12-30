@@ -1,0 +1,15 @@
+.play-screen {
+	background: red;
+	color: white;
+}
+
+.play-screen button {
+	width: 100%;
+	height: 5rem;
+	background: black;
+	color: white;
+}
+
+button:active {
+	background: red;
+}
